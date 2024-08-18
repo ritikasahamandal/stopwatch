@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(72, 60, 60);
+    columns: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.STOPWATCH{
+  background-color: rgba(0, 0, 0, 0.9) ;
+  padding: 20px 24px;
+  border-radius: 10px;
+}
+
+.timerdisplay{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.st{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: red;
+    padding: 12px 12px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sp{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: green;
+    padding: 12px 12px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Pa{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    padding: 12px 12px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
